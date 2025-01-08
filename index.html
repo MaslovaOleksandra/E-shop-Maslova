@@ -18,21 +18,21 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Home.html">Ženske oblečeni</a>
+              <a class="nav-link active" aria-current="page" href="Ženske oblečeni.html">Ženske oblečeni</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Link.html">Mužske oblečeni</a>
+              <a class="nav-link" href="Mužske oblečeni.html">Mužske oblečeni</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="Nabidka.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="Nabidka.html" id="Nabidka" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Nabidka
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Oblečeni.html">Oblečeni</a></li>
-                <li><a class="dropdown-item" href="Nadobi.html">Nadobi</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <div class="dropdown-menu" aria-labelledby="Nabidka">
+                <a class="dropdown-item" href="Oblečeni.html">Oblečeni</a>
+                <a class="dropdown-item" href="Nadobi.html">Nadobi</a>
+                <hr class="dropdown-divider">
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -42,6 +42,7 @@
         </div>
       </div>
     </nav>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
